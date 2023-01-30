@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Design by foolishdeveloper.com -->
+    <title>FB Auth()</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!--Stylesheet-->
+
+</head>
+
+<body>
+    <nav>
+        <a id="SignUpNav" href="index.html">Sign Up</a>
+        <a id="logout">Log out</a>
+        <a id="user-name">Username</a>
+    </nav>
+
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <form>
+        <h3>Sign Up Here</h3>
+
+        <label for="username">Username</label>
+        <input type="text" placeholder="username" id="username">
+
+        <label for="email">Email</label>
+        <input type="text" placeholder="Email" id="email">
+
+        <label for="password">Password</label>
+        <input type="password" placeholder="Password" id="password">
+
+        <button id="signUp-btn">Sign Up</button>
+        <div class="social">
+            <div class="go" id="googleSign"><i class="fab fa-google"></i> Google</div>
+        </div>
+    </form>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+<script type="module" src="fb.js"></script>
+
+</html>
